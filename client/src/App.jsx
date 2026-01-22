@@ -1,0 +1,29 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Register from './pages/Register'; // Import the new page
+import EmployerDash from './pages/EmployerDash';
+import PostJob from './pages/PostJob';
+import SeekerHome from './pages/SeekerHome';
+import ViewApplications from './pages/ViewApplications';
+import AdminDash from './pages/AdminDash';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/employer-dashboard" element={<EmployerDash />} />
+        <Route path="/post-job" element={<PostJob />} />
+        <Route path="/seeker-home" element={<SeekerHome />} />
+        <Route path="/view-applications" element={<ViewApplications />} />
+        <Route path="/admin-dashboard" element={<AdminDash />} />
+        // Inside your App.jsx Routes
+        {/* <Route path="/view-applications" element={<EmployerInbox />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
