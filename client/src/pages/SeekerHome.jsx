@@ -102,7 +102,9 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import backgroundImage from "../assets/bg.png"; // Import your background
+import backgroundImage from "../assets/bg.png";
+import Swal from "sweetalert2";
+// Import your background
 
 const SeekerHome = () => {
   const [jobs, setJobs] = useState([]);
@@ -127,7 +129,17 @@ const SeekerHome = () => {
       const profile = JSON.parse(localStorage.getItem("profile"));
       const token = profile?.token;
 
-      if (!token) return alert("Please login to apply");
+      if (!token) {
+        return Swal.fire({
+          title: "Login Required",
+          text: "Please login to apply for this job!",
+          icon: "warning",
+          confirmButtonText: "Go to Login",
+          // ... add your glassmorphism styles here
+        }).then(() => {
+          window.location.href = "/"; // Redirect to login
+        });
+      }
 
       await axios.post(
         `http://localhost:5000/api/applications/apply/${jobId}`,
@@ -137,9 +149,31 @@ const SeekerHome = () => {
         },
       );
 
-      alert("Application sent successfully!");
+      // alert("Application sent successfully!");
+      Swal.fire({
+        title: "Success!",
+        text: "Application sent successfully!",
+        icon: "success",
+        background: "rgba(255, 255, 255, 0.15)", // Glass effect
+        backdrop: `rgba(0,0,0,0.4) blur(4px)`, // Blurs the background
+        color: "#fff",
+        confirmButtonColor: "#2563eb", // Matches your blue button
+        customClass: {
+          popup: "rounded-3xl border border-white/20 backdrop-blur-lg",
+        },
+      });
     } catch (err) {
-      alert(err.response?.data?.message || "Failed to apply.");
+      Swal.fire({
+        title: "Oops!",
+        text: err.response?.data?.message || "Failed to apply.",
+        icon: "error",
+        background: "rgba(30, 30, 30, 0.25)", // Darker glass for errors
+        color: "#fff",
+        confirmButtonColor: "#ef4444", // Red for error
+        customClass: {
+          popup: "rounded-3xl border border-white/10 backdrop-blur-md",
+        },
+      });
     }
   };
 
