@@ -225,6 +225,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signIn } from "../api";
+import backgroundImage from "../assets/bg.png";
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -255,22 +256,23 @@ const Login = () => {
     <div
       className="min-h-screen flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: `url('../assests/bg.png')`, // Main Page Background
+        // 2. Use the imported variable
+        backgroundImage: `url(${backgroundImage})`,
       }}
     >
       {/* Dark Overlay to make the center card pop */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black/30 "></div>
 
       {/* Main Card Container */}
-      <div className="relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px]">
+      <div className="relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/20 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px]">
         {/* LEFT SIDE: Image Section */}
         <div className="hidden md:flex md:w-1/2 relative overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
             alt="Office"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
-          <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white bg-gradient-to-t from-indigo-900/90 via-indigo-900/20 to-transparent">
+          <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white ">
             <h2 className="text-4xl font-bold">Ern Mony Easy</h2>
             <p className="mt-2 text-indigo-100 text-lg">
               Your gateway to instant daily work.
@@ -282,7 +284,7 @@ const Login = () => {
         <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
           <div className="mb-8 text-center md:text-left">
             <h2 className="text-3xl font-bold text-gray-800">Welcome Back</h2>
-            <p className="text-gray-500 mt-2">
+            <p className="text-gray-800 mt-2">
               Log in to manage your opportunities
             </p>
           </div>
@@ -332,7 +334,7 @@ const Login = () => {
           </form>
 
           <div className="mt-8 pt-6 border-t border-gray-100 text-center">
-            <p className="text-gray-600">
+            <p className="text-gray-800">
               New to the platform?{" "}
               <span
                 onClick={() => navigate("/register")}
