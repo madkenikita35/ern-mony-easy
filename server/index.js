@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   res.send('Ern Money Easy Server is Running');
 });
 
-// Start Server
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
