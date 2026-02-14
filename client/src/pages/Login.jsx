@@ -255,7 +255,7 @@ const Login = () => {
     <div
       className="min-h-screen flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: `url('././assests/bg.png')`, // Main Page Background
+        backgroundImage: `url('../assests/bg.png')`, // Main Page Background
       }}
     >
       {/* Dark Overlay to make the center card pop */}
