@@ -1,10 +1,7 @@
 import axios from 'axios';
 
-// Create a base instance of axios with your backend URL
 const API = axios.create({ baseURL: 'http://localhost:5000/api' });
 
-// This interceptor attaches the token to every request automatically 
-// so the backend knows who is logged in (needed for Posting Jobs)
 API.interceptors.request.use((req) => {
     const profile = localStorage.getItem('profile');
     if (profile) {

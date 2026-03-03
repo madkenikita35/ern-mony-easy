@@ -239,14 +239,10 @@ const Login = () => {
       const { data } = await signIn(formData);
       localStorage.setItem("profile", JSON.stringify(data));
 
-      const userRole = data.user?.role;
-      if (userRole === "admin") navigate("/admin-dashboard");
-      else if (userRole === "employer") navigate("/employer-dashboard");
-      else navigate("/seeker-home");
+      // CHANGE THIS: Send everyone to the same landing page
+      navigate("/main-home");
     } catch (err) {
-      const errorMsg =
-        err.response?.data?.message || "Invalid Email or Password";
-      alert(errorMsg);
+      // ... error handling
     } finally {
       setLoading(false);
     }
