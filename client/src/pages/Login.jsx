@@ -266,7 +266,7 @@ const Login = () => {
           <img
             src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
             alt="Office"
-            className=" absolute inset-0 w-full h-full object-cover opacity-30"
+            className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
           <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white ">
             <h2 className="text-4xl font-bold">Ern Mony Easy</h2>
