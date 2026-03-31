@@ -250,7 +250,7 @@ const Login = () => {
 
   return (
     <div
-      className=" min-h-screen flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative "
+      className="min-h-screen flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative"
       style={{
         // 2. Use the imported variable
         backgroundImage: `url(${backgroundImage})`,
