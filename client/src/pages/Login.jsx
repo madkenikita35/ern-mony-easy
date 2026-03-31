@@ -257,7 +257,7 @@ const Login = () => {
       }}
     >
       {/* Dark Overlay to make the center card pop */}
-      <div className=" absolute inset-0 bg-black/30 "></div>
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Main Card Container */}
       <div className=" relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/20 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px]">
