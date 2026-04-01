@@ -16,7 +16,7 @@ const MainHome = () => {
       <div className="absolute top-1/4 -left-20 w-80 h-80 bg-blue-500/20 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-indigo-500/20 rounded-full blur-[120px] pointer-events-none"></div>
 
-      <div className="relative z-10 w-full max-w-5xl">
+      <div className=" relative z-10 w-full max-w-5xl">
         {/* Top Header Section */}
         <div className="text-center mb-10">
           <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">
