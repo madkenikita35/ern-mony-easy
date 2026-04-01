@@ -19,7 +19,7 @@ const MainHome = () => {
       <div className=" relative z-10 w-full max-w-5xl">
         {/* Top Header Section */}
         <div className="text-center mb-10">
-          <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight ">
+          <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">
             Welcome, <span className="text-blue-400">{user?.name}</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-lg mx-auto">
