@@ -8,7 +8,7 @@ const MainHome = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex flex-col items-center justify-center p-6 relative overflow-hidden"
+      className=" min-h-screen bg-cover bg-center flex flex-col items-center justify-center p-6 relative overflow-hidden"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Background Overlays & Decorative Glows */}
