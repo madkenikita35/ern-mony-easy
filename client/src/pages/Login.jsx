@@ -264,7 +264,7 @@ const Login = () => {
         {/* LEFT SIDE: Image Section */}
         <div className=" hidden md:flex md:w-1/2 relative overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
+            src=" https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
             alt="Office"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
