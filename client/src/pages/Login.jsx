@@ -262,9 +262,9 @@ const Login = () => {
       {/* Main Card Container */}
       <div className="relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/20 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px]">
         {/* LEFT SIDE: Image Section */}
-        <div className=" hidden md:flex md:w-1/2 relative overflow-hidden">
+        <div className="hidden md:flex md:w-1/2 relative overflow-hidden ">
           <img
-            src=" https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
             alt="Office"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
