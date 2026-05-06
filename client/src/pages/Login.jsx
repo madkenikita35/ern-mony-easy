@@ -265,7 +265,7 @@ const Login = () => {
         <div className="hidden md:flex md:w-1/2 relative overflow-hidden ">
           <img
             src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1974&auto=format&fit=crop"
-            alt="Office"
+            alt=" Office"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
           <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white ">
