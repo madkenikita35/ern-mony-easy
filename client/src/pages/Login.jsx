@@ -260,7 +260,7 @@ const Login = () => {
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Main Card Container */}
-      <div className=" relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/20 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px]">
+      <div className=" relative z-10 flex flex-col md:flex-row w-full max-w-4xl bg-white/20 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden min-h-[550px] ">
         {/* LEFT SIDE: Image Section */}
         <div className="hidden md:flex md:w-1/2 relative overflow-hidden ">
           <img
