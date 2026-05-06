@@ -285,7 +285,7 @@ const Login = () => {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className=" space-y-5 ">
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1">
                 Email Address
