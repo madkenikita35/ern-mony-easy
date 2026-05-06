@@ -293,7 +293,7 @@ const Login = () => {
               <input
                 type="email"
                 required
-                className="w-full p-3.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none transition bg-white/50 shadow-sm"
+                className=" w-full p-3.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none transition bg-white/50 shadow-sm "
                 placeholder="name@example.com"
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
