@@ -268,8 +268,8 @@ const Login = () => {
             alt="Office"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
-          <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white">
-            <h2 className="text-4xl font-bold">Ern Mony Easy</h2>
+          <div className="relative z-10 p-12 flex flex-col justify-end h-full text-white ">
+            <h2 className=" text-4xl font-bold">Ern Mony Easy</h2>
             <p className=" mt-2 text-indigo-100 text-lg">
               Your gateway to instant daily work.
             </p>
