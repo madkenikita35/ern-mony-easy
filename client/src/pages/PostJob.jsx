@@ -26,7 +26,7 @@ const PostJob = () => {
         headers: { Authorization: `Bearer ${token}` },
       });
 
-      alert("Job posted successfully!");
+      alert(" Job posted successfully!");
       navigate("/employer-dashboard");
     } catch (err) {
       alert(
