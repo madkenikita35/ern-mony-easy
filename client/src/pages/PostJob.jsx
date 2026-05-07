@@ -44,7 +44,7 @@ const PostJob = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className=" absolute inset-0 bg-black/50"></div>
 
       {/* Transparent Form Card */}
       <div className="relative z-10 w-full max-w-lg bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-8">
