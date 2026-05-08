@@ -53,7 +53,7 @@ const PostJob = () => {
           <h2 className="text-2xl font-bold text-white ">Post New Work</h2>
           <button
             onClick={() => navigate("/employer-dashboard")}
-            className="text-gray-300 hover:text-white text-sm transition "
+            className=" text-gray-300 hover:text-white text-sm transition "
           >
             ✕ Cancel
           </button>
