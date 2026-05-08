@@ -84,7 +84,7 @@ const PostJob = () => {
             required
           />
 
-          <div className="p-4 bg-blue-500/10 rounded-xl border border-blue-400/30">
+          <div className=" p-4 bg-blue-500/10 rounded-xl border border-blue-400/30">
             <label className="block text-sm font-semibold text-blue-300 mb-1">
               Video Explanation URL
             </label>
