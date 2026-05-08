@@ -77,7 +77,7 @@ const PostJob = () => {
 
           <textarea
             placeholder=" Work Description"
-            className="w-full p-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 h-24 focus:ring-2 focus:ring-blue-500 outline-none"
+            className=" w-full p-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 h-24 focus:ring-2 focus:ring-blue-500 outline-none"
             onChange={(e) =>
               setFormData({ ...formData, description: e.target.value })
             }
