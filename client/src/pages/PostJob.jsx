@@ -47,7 +47,7 @@ const PostJob = () => {
       <div className=" absolute inset-0 bg-black/50"></div>
 
       {/* Transparent Form Card */}
-      <div className=" relative z-10 w-full max-w-lg bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-8">
+      <div className="relative z-10 w-full max-w-lg bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-8">
         {/* Header with Back Button */}
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold text-white ">Post New Work</h2>
