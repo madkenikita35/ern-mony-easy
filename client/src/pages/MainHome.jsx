@@ -22,7 +22,7 @@ const MainHome = () => {
           <h1 className=" text-5xl font-extrabold text-white mb-4 tracking-tight ">
             Welcome, <span className=" text-blue-400">{user?.name}</span>
           </h1>
-          <p className="text-gray-300 text-lg max-w-lg mx-auto">
+          <p className="text-gray-300 text-lg max-w-lg mx-auto ">
             Connecting local talent with instant opportunities. What is your
             goal today?
           </p>
