@@ -8,7 +8,7 @@ import SeekerHome from "./pages/SeekerHome";
 import ViewApplications from "./pages/ViewApplications";
 import AdminDash from "./pages/AdminDash";
 import MainHome from "./pages/MainHome";
-import ProtectedRoute from "./pages/ProtectedRoute"; // Import the ProtectedRoute component
+import ProtectedRoute from "./pages/ProtectedRoute"; 
 
 function App() {
   return (
