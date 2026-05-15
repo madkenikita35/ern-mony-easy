@@ -103,7 +103,7 @@ const PostJob = () => {
             <input
               type="text"
               placeholder=" Location"
-              className="p-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 outline-none "
+              className=" p-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 outline-none"
               onChange={(e) =>
                 setFormData({ ...formData, location: e.target.value })
               }
