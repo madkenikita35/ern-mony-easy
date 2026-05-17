@@ -12,7 +12,7 @@ const MainHome = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Background Overlays & Decorative Glows */}
-      <div className="absolute inset-0 bg-black/65 fixed"></div>
+      <div className=" absolute inset-0 bg-black/65 fixed"></div>
       <div className="absolute top-1/4 -left-20 w-80 h-80 bg-blue-500/20 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-indigo-500/20 rounded-full blur-[120px] pointer-events-none"></div>
 
