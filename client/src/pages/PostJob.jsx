@@ -66,7 +66,7 @@ const PostJob = () => {
             </label>
             <input
               type="text"
-              placeholder="Job Title (e.g. Delivery Driver)"
+              placeholder=" Job Title (e.g. Delivery Driver)"
               className="w-full p-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 outline-none"
               onChange={(e) =>
                 setFormData({ ...formData, title: e.target.value })
