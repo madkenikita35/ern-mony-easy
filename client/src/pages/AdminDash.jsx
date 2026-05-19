@@ -73,8 +73,8 @@ const AdminDash = () => {
               <tr>
                 <th className=" p-4">Name</th>
                 <th className=" p-4">Role</th>
-                <th className="p-4">Trial Start</th>
-                <th className="p-4">Status</th>
+                <th className=" p-4">Trial Start</th>
+                <th className=" p-4">Status</th>
                 <th className="p-4">Action</th>
               </tr>
             </thead>
