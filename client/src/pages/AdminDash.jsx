@@ -67,7 +67,7 @@ const AdminDash = () => {
           </button>
         </header>
 
-        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-2xl">
+        <div className=" bg-gray-800 rounded-xl overflow-hidden shadow-2xl ">
           <table className="w-full text-left">
             <thead className="bg-gray-700 text-gray-300 uppercase text-sm">
               <tr>
