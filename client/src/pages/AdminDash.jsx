@@ -81,7 +81,7 @@ const AdminDash = () => {
             <tbody className=" divide-y divide-gray-700">
               {users.map((user) => (
                 <tr key={user._id} className="hover:bg-gray-700 transition">
-                  <td className="p-4">
+                  <td className=" p-4 ">
                     {user.name}
                     <br />
                     <span className="text-xs text-gray-500">{user.email}</span>
