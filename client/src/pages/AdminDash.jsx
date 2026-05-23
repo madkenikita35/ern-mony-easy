@@ -78,7 +78,7 @@ const AdminDash = () => {
                 <th className="p-4">Action</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-700 ">
+            <tbody className=" divide-y divide-gray-700">
               {users.map((user) => (
                 <tr key={user._id} className="hover:bg-gray-700 transition">
                   <td className="p-4">
