@@ -84,7 +84,9 @@ const AdminDash = () => {
                   <td className=" p-4 ">
                     {user.name}
                     <br />
-                    <span className=" text-xs text-gray-500">{user.email}</span>
+                    <span className=" text-xs text-gray-500 ">
+                      {user.email}
+                    </span>
                   </td>
                   <td className="p-4 capitalize">{user.role}</td>
                   <td className="p-4 text-sm">
