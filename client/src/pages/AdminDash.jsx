@@ -99,7 +99,7 @@ const AdminDash = () => {
                       {user.isSubscribed ? "PAID" : "TRIAL"}
                     </span>
                   </td>
-                  <td className="p-4">
+                  <td className=" p-4">
                     {user.role === "employer" && (
                       <button
                         onClick={() => toggleSubscription(user._id)}
