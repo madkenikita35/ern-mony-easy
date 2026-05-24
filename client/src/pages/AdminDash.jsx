@@ -80,7 +80,7 @@ const AdminDash = () => {
             </thead>
             <tbody className=" divide-y divide-gray-700">
               {users.map((user) => (
-                <tr key={user._id} className=" hover:bg-gray-700 transition">
+                <tr key={user._id} className=" hover:bg-gray-700 transition ">
                   <td className=" p-4 ">
                     {user.name}
                     <br />
