@@ -103,7 +103,7 @@ const AdminDash = () => {
                     {user.role === "employer" && (
                       <button
                         onClick={() => toggleSubscription(user._id)}
-                        className="bg-indigo-600 text-xs px-3 py-1 rounded hover:bg-indigo-500"
+                        className="bg-indigo-600 text-xs px-3 py-1 rounded hover:bg-indigo-500 "
                       >
                         {user.isSubscribed ? "Revoke" : "Confirm Payment"}
                       </button>
