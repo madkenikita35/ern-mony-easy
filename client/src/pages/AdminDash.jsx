@@ -94,7 +94,7 @@ const AdminDash = () => {
                   </td>
                   <td className="p-4">
                     <span
-                      className={` px-3 py-1 rounded-full text-xs font-bold ${user.isSubscribed ? "bg-green-900 text-green-300" : "bg-orange-900 text-orange-300"}`}
+                      className={`px-3 py-1 rounded-full text-xs font-bold ${user.isSubscribed ? " bg-green-900 text-green-300" : "bg-orange-900 text-orange-300"}`}
                     >
                       {user.isSubscribed ? "PAID" : "TRIAL"}
                     </span>
