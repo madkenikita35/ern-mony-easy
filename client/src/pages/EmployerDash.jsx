@@ -161,7 +161,7 @@ const EmployerDash = () => {
 
   return (
     <div
-      className="min-h-screen w-full flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative attachment-fixed"
+      className=" min-h-screen w-full flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat relative attachment-fixed"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Dark Overlay to keep background sharp but readable */}
