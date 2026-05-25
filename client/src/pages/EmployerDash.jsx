@@ -148,13 +148,13 @@ const EmployerDash = () => {
         console.error("Profile Parse Error:", err);
       }
     } else {
-      navigate("/login"); // Redirect if no profile found
+      navigate("/login");
     }
   }, [navigate]);
 
   if (!user)
     return (
-      <div className="h-screen flex items-center justify-center bg-gray-900 text-white font-bold">
+      <div className=" h-screen flex items-center justify-center bg-gray-900 text-white font-bold">
         Loading Your Dashboard...
       </div>
     );
