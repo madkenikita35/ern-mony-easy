@@ -88,7 +88,7 @@ const AdminDash = () => {
                       {user.email}
                     </span>
                   </td>
-                  <td className="p-4 capitalize">{user.role}</td>
+                  <td className=" p-4 capitalize">{user.role}</td>
                   <td className=" p-4 text-sm ">
                     {new Date(user.trialStartDate).toLocaleDateString()}
                   </td>
