@@ -165,7 +165,7 @@ const EmployerDash = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Dark Overlay to keep background sharp but readable */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className=" absolute inset-0 bg-black/50"></div>
 
       {/* Main Content Card - Glassmorphism style */}
       <div className="relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-6 md:p-10">
