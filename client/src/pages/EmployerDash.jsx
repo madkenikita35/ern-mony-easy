@@ -168,7 +168,7 @@ const EmployerDash = () => {
       <div className=" absolute inset-0 bg-black/50"></div>
 
       {/* Main Content Card - Glassmorphism style */}
-      <div className="relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-6 md:p-10">
+      <div className=" relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-6 md:p-10">
         {/* Header Section */}
         <header className="flex justify-between items-center mb-8 border-b border-white/10 pb-6">
           <div>
