@@ -170,7 +170,7 @@ const EmployerDash = () => {
       {/* Main Content Card - Glassmorphism style */}
       <div className=" relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/20 p-6 md:p-10">
         {/* Header Section */}
-        <header className="flex justify-between items-center mb-8 border-b border-white/10 pb-6 ">
+        <header className=" flex justify-between items-center mb-8 border-b border-white/10 pb-6 ">
           <div>
             <h1 className="text-3xl font-bold text-white">Employer Panel</h1>
             <p className="text-blue-200">Manage your recruitment</p>
