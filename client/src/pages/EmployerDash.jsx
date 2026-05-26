@@ -190,7 +190,7 @@ const EmployerDash = () => {
         <div
           className={`p-5 rounded-2xl mb-8 flex items-center justify-between shadow-inner ${
             user.isSubscribed
-              ? " bg-green-500/20 border border-green-500/50"
+              ? " bg-green-500/20 border border-green-500/50 "
               : "bg-orange-500/20 border border-orange-500/50"
           }`}
         >
