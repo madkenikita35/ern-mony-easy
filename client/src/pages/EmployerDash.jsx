@@ -180,7 +180,7 @@ const EmployerDash = () => {
               localStorage.clear();
               navigate("/");
             }}
-            className="bg-red-500/20 hover:bg-red-500/40 text-red-200 border border-red-500/50 px-5 py-2 rounded-xl text-sm font-bold transition"
+            className=" bg-red-500/20 hover:bg-red-500/40 text-red-200 border border-red-500/50 px-5 py-2 rounded-xl text-sm font-bold transition"
           >
             Logout
           </button>
