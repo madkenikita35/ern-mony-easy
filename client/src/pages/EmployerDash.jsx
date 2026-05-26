@@ -172,7 +172,7 @@ const EmployerDash = () => {
         {/* Header Section */}
         <header className=" flex justify-between items-center mb-8 border-b border-white/10 pb-6 ">
           <div>
-            <h1 className="text-3xl font-bold text-white">Employer Panel</h1>
+            <h1 className=" text-3xl font-bold text-white">Employer Panel</h1>
             <p className="text-blue-200">Manage your recruitment</p>
           </div>
           <button
