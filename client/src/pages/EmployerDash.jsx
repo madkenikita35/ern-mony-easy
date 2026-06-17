@@ -216,7 +216,7 @@ const EmployerDash = () => {
         </div>
 
         {/* Action Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Post Job Card */}
           <div className="bg-white/10 p-8 rounded-2xl border border-white/10 hover:border-blue-400/50 transition group">
             <h3 className="text-xl font-bold text-blue-300 mb-2">
