@@ -209,7 +209,7 @@ const EmployerDash = () => {
             </p>
           </div>
           {!user.isSubscribed && (
-            <button className=" bg-orange-500 text-white px-4 py-2 rounded-lg font-bold text-xs hover:bg-orange-600 transition">
+            <button className=" bg-orange-500 text-white px-4 py-2 rounded-lg font-bold text-xs hover:bg-orange-600 transition ">
               Upgrade
             </button>
           )}
