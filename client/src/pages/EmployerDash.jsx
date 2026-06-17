@@ -196,7 +196,7 @@ const EmployerDash = () => {
         >
           <div>
             <h2
-              className={`text-lg font-bold ${user.isSubscribed ? " text-green-300" : "text-orange-300"}`}
+              className={`text-lg font-bold ${user.isSubscribed ? " text-green-300" : "text-orange-300 "}`}
             >
               {user.isSubscribed
                 ? "✅ Premium Plan Active"
