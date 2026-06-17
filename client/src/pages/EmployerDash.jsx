@@ -202,7 +202,7 @@ const EmployerDash = () => {
                 ? "✅ Premium Plan Active"
                 : "⏳ Free Trial Active"}
             </h2>
-            <p className="text-white/80 text-sm">
+            <p className=" text-white/80 text-sm">
               {user.isSubscribed
                 ? `Unlimited job posts enabled for ${user.name}.`
                 : `You have ${daysLeft} days remaining to post for free.`}
