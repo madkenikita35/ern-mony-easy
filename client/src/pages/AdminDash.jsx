@@ -61,7 +61,7 @@ const AdminDash = () => {
               localStorage.clear();
               window.location.href = "/";
             }}
-            className=" bg-red-600 px-4 py-2 rounded"
+            className="bg-red-600 px-4 py-2 rounded"
           >
             Logout
           </button>
