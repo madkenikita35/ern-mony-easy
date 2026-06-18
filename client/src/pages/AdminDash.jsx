@@ -69,7 +69,7 @@ const AdminDash = () => {
 
         <div className=" bg-gray-800 rounded-xl overflow-hidden shadow-2xl ">
           <table className=" w-full text-left">
-            <thead className="bg-gray-700 text-gray-300 uppercase text-sm">
+            <thead className="bg-gray-700 text-gray-300 uppercase text-sm ">
               <tr>
                 <th className=" p-4">Name</th>
                 <th className=" p-4 ">Role</th>
