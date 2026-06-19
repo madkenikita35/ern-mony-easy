@@ -71,7 +71,7 @@ const AdminDash = () => {
           <table className=" w-full text-left">
             <thead className=" bg-gray-700 text-gray-300 uppercase text-sm ">
               <tr>
-                <th className=" p-4">Name</th>
+                <th className=" p-4 ">Name</th>
                 <th className=" p-4 ">Role</th>
                 <th className=" p-4">Trial Start</th>
                 <th className=" p-4">Status</th>
